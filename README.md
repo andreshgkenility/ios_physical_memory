@@ -8,5 +8,6 @@ A Simple plugin to retrieve Physical Memory for IOS Only.
 import 'package:ios_physical_memory/ios_physical_memory.dart';
 
 String? physicalMemory = await IosPhysicalMemory.physicalMemory;
+String? freeAvailableMemory = await IosPhysicalMemory.availableFreeMemory;
 ```
 

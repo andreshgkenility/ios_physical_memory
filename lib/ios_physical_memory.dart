@@ -14,7 +14,13 @@ class IosPhysicalMemory {
 
   static Future<String?> get physicalMemory async {
     if (!Platform.isIOS) throw Exception("Platform not supported");
-    final String version = await _channel.invokeMethod('getPhysicalMemory') ?? '0';
-    return filesize(int.tryParse(version));
+    final String physicalMemory = await _channel.invokeMethod('getPhysicalMemory') ?? '0';
+    return filesize(int.tryParse(physicalMemory));
+  }
+
+  static Future<String?> get availableFreeMemory async {
+    if (!Platform.isIOS) throw Exception("Platform not supported");
+    final String freeMemory = await _channel.invokeMethod('getAvailableMemory') ?? '0';
+    return filesize(int.tryParse(freeMemory));
   }
 }

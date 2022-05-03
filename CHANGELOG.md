@@ -1,7 +1,11 @@
-## 0.0.1
+## 0.0.4
 
-* Initial release.
+* Added Available Memory method
 
 ## 0.0.2
 
 * Bug fix: Changed missing dependency
+
+## 0.0.1
+
+* Initial release.
