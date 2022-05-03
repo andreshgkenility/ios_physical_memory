@@ -1,7 +1,7 @@
 name: ios_physical_memory
-description: A new flutter plugin project.
+description: A plugin to retrieve Physical Memory for IOS Only.
 version: 0.0.1
-homepage:
+homepage: https://github.com/andreshgkenility/ios_physical_memory
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
