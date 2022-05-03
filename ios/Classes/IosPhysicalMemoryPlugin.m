@@ -32,10 +32,10 @@
       }
 
           /* Stats in bytes */
-      natural_t mem_used = (vm_stat.active_count + vm_stat.inactive_count + vm_stat.wire_count) * pagesize;
+//      natural_t mem_used = (vm_stat.active_count + vm_stat.inactive_count + vm_stat.wire_count) * pagesize;
       natural_t mem_free = vm_stat.free_count * pagesize;
-      natural_t mem_total = mem_used + mem_free;
-      result([[NSNumber numberWithInt:mem_total] stringValue]);
+//      natural_t mem_total = mem_used + mem_free;
+      result([[NSNumber numberWithInt:mem_free] stringValue]);
   } else {
     result(FlutterMethodNotImplemented);
   }
