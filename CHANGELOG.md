@@ -1,3 +1,7 @@
+## 0.0.5
+
+* Fix variable returned for available Memory
+
 ## 0.0.4
 
 * Added Available Memory method

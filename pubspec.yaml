@@ -1,6 +1,6 @@
 name: ios_physical_memory
 description: A plugin to retrieve Physical Memory for IOS Only.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/andreshgkenility/ios_physical_memory
 
 environment:
