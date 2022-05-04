@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Updated description. Formatted dart code.
+
 ## 0.0.5
 
 * Fix variable returned for available Memory

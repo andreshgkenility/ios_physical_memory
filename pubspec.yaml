@@ -1,6 +1,6 @@
 name: ios_physical_memory
-description: A plugin to retrieve Physical Memory for IOS Only.
-version: 0.0.5
+description: A new Flutter plugin to retrieve device's Physical Memory and current available Memory (This plugin is for IOS Only). Written in Obj-C.
+version: 0.0.6
 homepage: https://github.com/andreshgkenility/ios_physical_memory
 
 environment:
